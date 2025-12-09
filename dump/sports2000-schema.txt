@@ -1,0 +1,12 @@
+This file contains a brief summary of the sports2000 database schema derived from dump/sports2000.df.
+
+Sequences:
+- NextCustNum, NextInvNum, NextOrdNum, NextItemNum, NextRefNum, NextVisitor, NextSupplNum, NextLocalDefNum,
+  NextWareNum, NextBinNum, NextPONum, NextEmpNum, NextInvTransNum
+
+Example tables (partial list):
+- Benefits (area Employee)
+- Customer (customer master data with fields such as Name, Address, City, State, PostalCode, Contact, Phone,
+  SalesRep, CreditLimit, Balance, Terms, Discount, Fax, Email, etc.)
+
+For the full schema definition, see `dump/sports2000.df` in the original ProjectGengar repository.
