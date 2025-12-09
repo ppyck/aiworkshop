@@ -27,8 +27,8 @@
   ],
   "dbConnections": [{
     "name": "sp2k",
-    "connect": "-db db/sports2000 -ld sp2k",
-    "schemaFile": "dump/sports2000.df",
+    "connect": "-db sports2000 -ld sp2k -S 12345",
+    "schemaFile": "../ProjectGengar/dump/sports2000.df",
     "aliases": [
       "sports"
     ]
